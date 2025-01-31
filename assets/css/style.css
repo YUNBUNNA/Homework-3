@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f2;
+    font-family: "Poppins", serif;
+}
+
+.container{
+    width: 1320px;
+    margin: auto;
+}
+
+header .container{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header .container .navbar-brand{
+    display: block;
+    margin-top: 15px;
+}
+
+header .container .navbar-address{
+    padding: 0 10px;
+}
+
+header .navbar{
+    width: 100%;
+}
+
+.navbar .navbar-nav{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    background-color: #A3AEBB;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.action{
+    background: linear-gradient(45deg,#75e9d6,#9bb4e4);
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 430;
+    padding: 14px 45px;
+    border-right:1px solid white;
+    transition: 0.3s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    background: linear-gradient(45deg,#75e9d6,#9bb4e4);
+}
+
+main .hero-banner img{
+    width: 100%;
+    object-fit: cover;
+}
+
+main .container{
+    background-color: #fff;
+}
+
+main .row{
+    display: flex;
+}
+
+main .category .col-3{
+    width: 20%;
+    padding: 10px;
+}
+
+main .category .col-9{
+    width: 80%;
+    padding: 10px 10px 0 0;
+}
+
+main .category .col-3 .container-left{
+    margin-bottom: 10px;    
+}
+
+main .category .col-3 h3{
+    text-align: center;
+    background-color: #A3AEBB;
+    color: white;
+    font-size: 18px;
+    font-weight: 450;
+    padding: 8px 30px;
+    border-radius: 4px 4px 0 0;
+}
+
+.category .row .col-3 .navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.category .row .col-3 .nav-link{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    padding: 8px 10px;
+    border-bottom:1px solid #fff;
+    background-color: #caced4;
+    color: white;
+    font-size: 16px;
+    font-weight: 420;
+    transition: 0.3s;
+}
+
+.category .row .col-3 .nav-link:hover{
+    padding: 8px 20px;
+    background: linear-gradient(90deg,#75e9d6,#9bb4e4);
+
+}
+
+.category .col-9 .container-right .title{
+    width: 100%;
+    display: flex;
+    background-color: #A3AEBB; 
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.category .col-9 .container-right .title h3{
+    font-size: 18px;
+    font-weight: 450;
+}
+
+.category .col-9 .container-right .title a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.col-9 .container-right .col-3{
+    width: calc(100% / 4);
+    padding: 15px;
+} 
+
+.col-9 .container-right .col-3 .box-product{
+    width: 100%;
+    height: 220px;
+    border: 1px solid #caced4;
+    border-radius: 4px;
+}
+
+footer .container{
+    background-color: #A3AEBB;
+    padding: 45px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
