@@ -47,8 +47,12 @@ header .navbar{
     background: linear-gradient(45deg,#75e9d6,#9bb4e4);
 }
 
+.navbar .navbar-nav .nav-item{
+    display: inline;
+    padding: 14px 0;
+}
+
 .navbar .navbar-nav .nav-item .nav-link{
-    display: inline-block;
     text-decoration: none;
     color: white;
     font-size: 16px;
